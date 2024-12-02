@@ -45,7 +45,7 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         
-        # breaking loop 
+        # breaking 
         next_calculation = input("Let's do next calculation? (yes/no): ")
         if next_calculation == "no":
           break
@@ -59,6 +59,6 @@ while True:
                 continue
             print(x)
 
-        breakfastDictionary = {"method": 'eggs', "side": 'bacon', "drink": 'orange juice'}
-        print(breakfastDictionary["method"])
+        breakfastDictionary = {"main": 'eggs', "side": 'bacon', "drink": 'orange juice'}
+        print(breakfastDictionary["main"])
     
